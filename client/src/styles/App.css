@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+
+
+.calculate-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.02px;
+  width: 209px;
+  height: 32px;
+  position: absolute;
+  top: 16px;
+  left: 15px;
+}
+
+.basic-salary-label {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  position: absolute;
+  top: 60px;
+  left: 18px;
+  gap: 8px;
+}
+
+.basic-salary-input {
+  width: 356px;
+  position: absolute;
+  font-size: 12px;
+  top: 75px;
+  left: 15px;
+  gap: 8px;
+}
+
+
+
+.earnings-label {
+  position: absolute;
+  top: 130px;
+  left: 18px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+
+.earnings-description {
+  position: absolute;
+  top: 150px;
+  left: 18px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: right;
+  opacity: 0.5;
+}
+
+.EarningsInput {
+ margin-left: -8rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+
+}
+
+.deduction-label {
+  position: absolute;
+  top: 280px;
+  left: 18px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+
+.deduction-description {
+  position: absolute;
+  top: 300px;
+  left: 18px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: right;
+  opacity: 0.5;
+}
