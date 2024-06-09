@@ -57,10 +57,10 @@ const EarningsInput = () => {
   return (
     <div>
       <div className="mt-5">
-        <h5 className="text-lg font-medium">Earnings</h5>
-        <p className="text-gray-600">Allowance, Fixed Allowance, Bonus and etc.</p>
+        <h5 className="text-lg font-medium earnings-label">Earnings</h5>
+        <p className="text-gray-600 earnings-description">Allowance, Fixed Allowance, Bonus and etc.</p>
       </div>
-      <div className="mt-5">
+      <div className="mt-5 EarningsInput">
         {earnings.map((earning, index) => (
           <EarningInput
             key={index}
